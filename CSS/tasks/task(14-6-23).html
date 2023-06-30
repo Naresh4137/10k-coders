@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pseudo class selectotrs</title>
+    <style>
+        ul > :first-child{
+            color:red
+
+        }
+        ul > :nth-child(3){
+            color:orange;
+            font-style: oblique;
+        }
+        ul > :last-child{
+            color: green;
+        }
+        h1:hover{
+            color:aqua;
+            font-size :40px ;
+        }
+        p::first-letter
+        {
+            color: red; 
+            font-size: 40px;  
+        }
+        p::selection{
+            background-color: yellow;
+        }
+        [class="attribute"]{
+            background-color: burlywood;           
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                first child
+            </li>
+            <li>
+                second child
+            </li>
+            <li>third child</li>
+            <li>fourth child</li>
+        </ul>
+    </nav>
+    <h1>HOVER</h1>
+    <p >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+    </p>
+    <h1 class="attribute">Attribute selector</h1>
+
+</body>
+</html>

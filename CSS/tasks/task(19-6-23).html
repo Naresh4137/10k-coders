@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        #parent{
+            background-color: aqua;
+            width:300px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            text-align: center;
+            padding:30px;
+            border:5px solid black;
+            gap:10px;
+            margin:50px;
+            
+            
+           
+            
+
+        }
+        .blank{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+       
+        
+        .child{
+            height: 30px;
+            
+            
+            background:white;
+            margin=:10px
+        }
+        .C{
+            background-color: brown;
+        }       
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div id="parent">
+        
+        <div class="child blank"> </div>
+        <div class="child c1"> 1</div>
+        <div class="child c2"> 2</div>
+        <div class="child c3">3</div>
+        <div class="child plus" style="background-color: green;">+</div>
+        <div class="child c4">4</div>
+        <div class="child c5">5</div>
+        <div class="child c6">6</div>
+        <div class="child minus "style="background-color: green;">-</div>
+        <div class="child c7">7</div>
+        <div class="child c8">8</div>
+        <div class="child c9">9</div>
+        <div class="child star" style="background-color: green;">*</div>
+        <div class="child C">C</div>
+        <div class="child zero"> 0</div>
+        <div class="child equals">=</div>
+        <div class="child divsn" style="background-color: green;">/</div>
+        
+
+    </div>
+</body>
+</html>

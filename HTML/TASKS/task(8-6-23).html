@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--HTML forms-->
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body bgcolor="CAEEC2">
+        <h1>Appeal Application Form</h1>
+       <forms>
+            <h2>Personal Information</h2>
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="First" />
+                <input type="text" id="name" placeholder="Last"/>
+
+            </div>
+            <br>
+            <div>
+                <label for="sname" >Student Number</label><br>
+                <input type="numbers" id="sname" size="46"/>
+            </div>
+            <h2>Appeal Information</h2>
+            <div>
+                <label for="reqsummary">Request Summary</label><br>
+                <input type="text" id="reqsummary" style="width:27%;height :66px"/>
+            </div>
+            <br>
+            <div>
+                <label for="upload" >Letter of Appeal Upload</label><br>
+                <input type="file" id="upload"/>
+            </div>
+            <br>
+            <div>
+                <label for="supportdocs">Do you have supporting documents to upload in support of your appeal? </label><br>
+                <select style="width:28%;">
+                    <option>--select--</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>           
+
+       </forms>
+    </body>
+</html>
